@@ -1,0 +1,248 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: black
+}
+
+
+.container {
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 597px;
+  font-family: "TT Lakes", serif, 'Times New Roman', Times, serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.upper-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 320px;
+  height: 88px;
+  border: 1px solid transparent;
+  border-bottom-color: #D9FFF5;
+}
+
+.upper-menu__first-part {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 184px;
+  height: 100%;
+}
+
+.upper-menu__first-separator {
+  display: none;
+}
+
+.separator {
+  width: 2px;
+  height: 32px;
+  border: 1px solid #EAEAEA;
+  border-radius: 1px;
+  background-color: #EAEAEA;
+}
+
+.second-part {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 128px;
+  height: 100%;
+}
+
+.second-part__hidden-call {
+  display: none;
+}
+
+.second-part__hidden-chat {
+  display: none;
+}
+
+.icon-style {
+  height: 40px;
+  width: 40px;
+}
+
+.second-part__hidden-profile {
+  display: none;
+}
+
+.second-part__second-separator {
+  display: none;
+}
+
+.request-block {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.request-block__link {
+  text-wrap: nowrap;
+  display: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-family: "TT Lakes medium", serif, 'Times New Roman', Times, serif;
+  height: 25px;
+  width: 125px;
+}
+
+.checkstatus-block {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.checkstatus-block__link {
+  text-wrap: nowrap;
+  display: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-family: "TT Lakes medium", serif, 'Times New Roman', Times, serif;
+  height: 25px;
+  width: 119px;
+}
+
+.main-container {
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #F8F8F8;
+  min-width: 320px;
+  min-height: 509px;
+}
+
+.main-container__title {
+  justify-content: space-between;
+  height: 40px;
+  width: 304px;
+}
+
+.main-container__left-block {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-container__decor {
+  width: 4px;
+  height: 100%;
+  border: 1px solid #41F6D7;
+  border-radius: 0 4px 4px 0;
+  background-color: #41F6D7;
+}
+
+.main-container__title-text {
+  font-size: 28px;
+  width: 288px;
+  height: 40px;
+  margin-left: 12px;
+  letter-spacing: -0.6px;
+  line-height: 40px;
+  font-family: 'TT Lakes black', serif, 'Times New Roman', Times, serif;
+}
+
+.main-container__right-block {
+  width: 396px;
+  justify-content: flex-end;
+  display: none;
+}
+
+.main-container__scroll-menu {
+  width: auto;
+  height: 40px;
+  white-space: nowrap;
+  overflow-x: auto;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.main-container__side-item {
+  text-wrap: nowrap;
+  padding: 6px 17px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-container__side-item:focus {
+  border: 2px solid #41F6D7;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.main-container__information-block {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  height: 322px;
+  align-self: center;
+}
+
+.main-container__information-text {
+  height: 130px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-container__text {
+  margin: 0 auto;
+  width: 288px;
+  height: 90px;
+  line-height: 18px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.main-container__text div:nth-child(1) {
+  padding: auto 0;
+}
+
+.main-container__text div:nth-child(2) {
+  display: none;
+  margin: auto 0;
+}
+
+.main-container__text div:nth-child(3) {
+  display: none;
+  margin: auto 0;
+}
+
+.main-container__read-more {
+  width: 132px;
+  height: 24px;
+  justify-content: space-between;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.main-container__text-more {
+  font-family: 'TT Lakes medium', serif, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+}
+
+.main-container__image {
+  width: 320px;
+  height: 176px;
+  background-image: url("../files/main-container/first-block/01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
